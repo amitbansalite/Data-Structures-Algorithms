@@ -1,0 +1,6 @@
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\bin\Debug\Data-Structures-Algorithms.exe.config
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\bin\Debug\Data-Structures-Algorithms.exe
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\bin\Debug\Data-Structures-Algorithms.pdb
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\obj\Debug\Data-Structures-Algorithms.csprojResolveAssemblyReference.cache
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\obj\Debug\Data-Structures-Algorithms.exe
+D:\learning\DotNet practise\Data-Structures-Algorithms\Data-Structures-Algorithms\obj\Debug\Data-Structures-Algorithms.pdb

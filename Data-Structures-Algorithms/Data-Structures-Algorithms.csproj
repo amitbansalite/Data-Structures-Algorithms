@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2658553D-5484-43AE-B71D-424994350D3C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data_Structures_Algorithms</RootNamespace>
+    <AssemblyName>Data-Structures-Algorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrays\FindAsymmetricIndex.cs" />
+    <Compile Include="Arrays\FindElementTwoSortedLists.cs" />
+    <Compile Include="Arrays\FindEquilibriumIndex.cs" />
+    <Compile Include="Arrays\FishFoodCahin.cs" />
+    <Compile Include="Arrays\LargestSumSubArray.cs" />
+    <Compile Include="Arrays\RotateArray.cs" />
+    <Compile Include="Arrays\SearchRotatedSortedArray.cs" />
+    <Compile Include="Binary\NumbersBinaryFormatPalindrome.cs" />
+    <Compile Include="BST\BasicBST.cs" />
+    <Compile Include="BST\BinaryTreeIsBST.cs" />
+    <Compile Include="BST\BSTtoDoubleLinkedList.cs" />
+    <Compile Include="BST\BSTtoSingleLinkedList.cs" />
+    <Compile Include="BST\DiameterOfTree.cs" />
+    <Compile Include="BST\InOrderTraversalIterative.cs" />
+    <Compile Include="BST\InOrderUsingStack.cs" />
+    <Compile Include="BST\LCA.cs" />
+    <Compile Include="BST\SortedArrayToBST.cs" />
+    <Compile Include="BST\SortedDoublyLinkedListToBST.cs" />
+    <Compile Include="BST\SortedLinkedListToBST.cs" />
+    <Compile Include="BST\SuccessorPredecessor.cs" />
+    <Compile Include="DifferentTrees\IntervalTree.cs" />
+    <Compile Include="DifferentTrees\NAryTree.cs" />
+    <Compile Include="DifferentTrees\SegmentTree.cs" />
+    <Compile Include="DP\AllSubsetsAddingUpToGivenSum.cs" />
+    <Compile Include="DP\LongestCommonSubsequenceDP.cs" />
+    <Compile Include="DP\SubArrayWithGivenSum.cs" />
+    <Compile Include="Graphs\DiGraph.cs" />
+    <Compile Include="Graphs\DirectedBfs.cs" />
+    <Compile Include="Graphs\DirectedDFS.cs" />
+    <Compile Include="LinkedList\AddNumbersUsingLinkedLists.cs" />
+    <Compile Include="LinkedList\Bag.cs" />
+    <Compile Include="LinkedList\Clone.cs" />
+    <Compile Include="LinkedList\FindLoopNode.cs" />
+    <Compile Include="LinkedList\PairWiseSwap.cs" />
+    <Compile Include="LinkedList\PalindromeLinkedList.cs" />
+    <Compile Include="LinkedList\ReverseLinkedList.cs" />
+    <Compile Include="LinkedList\Sort012.cs" />
+    <Compile Include="LinkedList\Sort0And1.cs" />
+    <Compile Include="Maths\DivisibilityTest.cs" />
+    <Compile Include="Maths\FindGCD.cs" />
+    <Compile Include="Maths\IsPerfectSquare.cs" />
+    <Compile Include="Maths\IsPrimeNumber.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursion\CountDecoding.cs" />
+    <Compile Include="Recursion\Factorial.cs" />
+    <Compile Include="Recursion\Fibonacci.cs" />
+    <Compile Include="Recursion\Labyrinth.cs" />
+    <Compile Include="Recursion\MinStepsToOne.cs" />
+    <Compile Include="Recursion\N_Queen_Problem.cs" />
+    <Compile Include="Recursion\PrintNumbers.cs" />
+    <Compile Include="Recursion\PrintWordsFromPhoneNumbers.cs" />
+    <Compile Include="Recursion\RemoveDuplicatesRecursively.cs" />
+    <Compile Include="Recursion\subsets\PermutationsOfGivenString.cs" />
+    <Compile Include="Recursion\subsets\Subsets2.cs" />
+    <Compile Include="Recursion\subsets\SubsetsProblem.cs" />
+    <Compile Include="Sorting\BinaryQuickSort.cs" />
+    <Compile Include="Sorting\BucketSort.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
+    <Compile Include="Sorting\MinPQ.cs" />
+    <Compile Include="Sorting\MSD_RadixSort.cs" />
+    <Compile Include="Sorting\MSD_Radix_String_Jabez.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\RadixSort.cs" />
+    <Compile Include="Sorting\ShellSort.cs" />
+    <Compile Include="Strings\BoyerMoore.cs" />
+    <Compile Include="Strings\KMP.cs" />
+    <Compile Include="Strings\LongestCommonSubsequence.cs" />
+    <Compile Include="Strings\LongestPalindromeSubString.cs" />
+    <Compile Include="Strings\PrintLast10Lines.cs" />
+    <Compile Include="Strings\RabinKarp.cs" />
+    <Compile Include="Strings\RegexMatch.cs" />
+    <Compile Include="Strings\SmallestSuperSequence.cs" />
+    <Compile Include="TRIES\BasicTries.cs" />
+    <Compile Include="TRIES\TST.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

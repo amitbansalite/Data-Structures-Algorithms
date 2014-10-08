@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7959273-B448-463E-9305-B336AD4780FB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineProblems</RootNamespace>
+    <AssemblyName>OnlineProblems</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="codeeval\LongestLine.cs" />
+    <Compile Include="HackerRank\Sorting\BusStation.cs" />
+    <Compile Include="HackerRank\Sorting\Crush.cs" />
+    <Compile Include="HackerRank\Sorting\SherlockPairs.cs" />
+    <Compile Include="HackerRank\Warmup\ACM.cs" />
+    <Compile Include="HackerRank\Warmup\AngryChildren.cs" />
+    <Compile Include="HackerRank\Warmup\FillingJars.cs" />
+    <Compile Include="HackerRank\Warmup\FindDigits.cs" />
+    <Compile Include="HackerRank\Warmup\IsFibo.cs" />
+    <Compile Include="HackerRank\Warmup\Manasa.cs" />
+    <Compile Include="HackerRank\Warmup\Sherlock.cs" />
+    <Compile Include="HackerRank\Warmup\SherlockBeast.cs" />
+    <Compile Include="HackerRank\Warmup\SherlockQueries.cs" />
+    <Compile Include="HackerRank\Warmup\SherlockSquares.cs" />
+    <Compile Include="HackerRank\Warmup\_10ChoclateFeast.cs" />
+    <Compile Include="HackerRank\Warmup\_1GenStones.cs" />
+    <Compile Include="HackerRank\Warmup\_3UtopianTree.cs" />
+    <Compile Include="HackerRank\Warmup\_4ServiceLane.cs" />
+    <Compile Include="HackerRank\Warmup\_5LoveLetter.cs" />
+    <Compile Include="HackerRank\Warmup\_6HalloweenParty.cs" />
+    <Compile Include="HackerRank\Warmup\_7CutSticks.cs" />
+    <Compile Include="HackerRank\Warmup\_8MaximisingXor.cs" />
+    <Compile Include="HackerRank\Warmup\_9GOT.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SPOJ\Brackets.cs" />
+    <Compile Include="SPOJ\GSS3.cs" />
+    <Compile Include="SPOJ\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

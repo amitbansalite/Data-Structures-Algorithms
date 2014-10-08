@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data-Structures-Algorithms", "Data-Structures-Algorithms\Data-Structures-Algorithms.csproj", "{2658553D-5484-43AE-B71D-424994350D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineProblems", "OnlineProblems\OnlineProblems.csproj", "{E7959273-B448-463E-9305-B336AD4780FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2658553D-5484-43AE-B71D-424994350D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2658553D-5484-43AE-B71D-424994350D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2658553D-5484-43AE-B71D-424994350D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2658553D-5484-43AE-B71D-424994350D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7959273-B448-463E-9305-B336AD4780FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7959273-B448-463E-9305-B336AD4780FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7959273-B448-463E-9305-B336AD4780FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7959273-B448-463E-9305-B336AD4780FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
